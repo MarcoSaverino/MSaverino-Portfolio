@@ -1,0 +1,179 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ a:visited {
+  text-decoration: none;
+  color:  rgb(251, 251, 251);
+ }
+
+h1 {
+  margin-right: 1vh;
+  border-right: 2px solid rgb(255, 255, 255);
+  padding-right: 2vh;
+}
+
+p {
+  text-align: left;
+  word-wrap: normal;
+  font-size: x-large;
+  word-wrap: break-word;
+  width: 38%;
+}
+
+body {
+  background-image: url(../images/background-photo.png);
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(150, 150, 150);
+  background-image: url(../images/PROJECT\ -1.png);
+  color:  rgb(251, 251, 251);
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 50px;
+}
+
+header h1 .title {
+  color: whitesmoke;
+  text-decoration: underline;
+  text-decoration-color: rgb(104, 104, 104);
+  font-family: Arial, Helvetica, sans-serif white;
+}
+
+header nav {
+  text-decoration: none;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif white;
+}
+
+header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+header div nav {
+  list-style-type: none;
+}
+
+header div nav li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/* Main Photo */
+.Resume-Photo {
+ background-image: url(../images/resume-photo.png);
+ border: 8px solid  rgb(255, 255, 255);
+ width:100%;
+ height: 50vh;
+ background-size: cover;
+ background-position: center;
+}
+
+/* About Me Section */
+.About-Me {
+margin-top: 3vh;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 30vh;
+font-size: large;
+display: flex;
+text-align: center;
+color: #ffffff;
+}
+
+.First-Project {
+  background-image: url(../images/PROJECT\ -1.png);
+  border: 8px solid  rgb(255, 255, 255);
+  width:75%;
+  height: 37vh;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+}
+
+/* For my Resume Pics */
+
+::after,
+::backdrop {
+  margin: 0;
+  padding: 0;
+  box-sizing: initial;
+}
+
+.container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8,5vw);
+  grid-gap: 1.0rem;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  display: block;
+  border: 8px solid  rgb(255, 255, 255);
+}
+
+.Gallery-Item-1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Gallery-Item-2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.Gallery-Item-3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.Gallery-Item-4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.Gallery-Item-5 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+
+footer {
+  padding: 20px;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(150, 150, 150);
+  background-image: url(../images/PROJECT\ -1.png);
+  color:  rgb(251, 251, 251);
+  }
