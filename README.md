@@ -20,7 +20,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## SCREENSHOT WITH LINK TO PAGE PREVIEW 
-[![Screenshot](/Challenge2-Screenshot.PNG)](https://marcosaverino.github.io/MSaverino-Challenge-2/)
+[![Screenshot](./assets/images/Challenge2-Screenshot.PNG)](https://marcosaverino.github.io/MSaverino-Challenge-2/)
 
 ## LINKS 
 PAGE PREVIEW: 
