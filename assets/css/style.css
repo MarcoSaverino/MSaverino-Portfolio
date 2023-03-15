@@ -43,7 +43,7 @@ header li {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -71,8 +71,6 @@ header nav {
   text-decoration: none;
 }
 
-
-
 header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -90,17 +88,14 @@ header div nav li {
   margin-left: 25px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   header a {
-    float: none;
-    display: block;
+    margin: auto;
+    padding: 0%;
+    font-size: 20px;
     text-align: left;
   }
-  .header-right {
-    float: none;
-  }
 }
-
 /* Main Photo */
 
 .Resume-Photo {
@@ -111,7 +106,7 @@ header div nav li {
  background-size: cover;
  background-position: center;
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1000px) and (min-height:900px) {
   .Resume-Photo {
     background-image: url(../images/resume-photo-mobile.png);
     border: 8px solid  rgb(255, 255, 255);
@@ -123,6 +118,7 @@ header div nav li {
 }
 /* About Me Section */
 .About-Me {
+word-wrap: break-word;
 margin-top: 3vh;
 font-family: Arial, Helvetica, sans-serif;
 margin-left: 30vh;
@@ -131,9 +127,13 @@ display: flex;
 text-align: center;
 color: #ffffff;
 }
+
 @media screen and (max-width:1000px) {
   .About-Me {
+    word-wrap: break-word;
+    text-align: center;
     font-size: 80px;
+    width: 100%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -143,18 +143,58 @@ color: #ffffff;
 
 /* First Project */
 .First-Project {
-  background-image: url(../images/PROJECT\ -1.png);
   border: 8px solid  rgb(255, 255, 255);
+  background-image: url(../images/My-First-Repo.png);
   width:75%;
-  height: 37vh;
+  height: 35vh;
   background-size: cover;
   background-position: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2vh;
 }
+@media screen and (max-width:1000px) {
+  .First-Project {
+    border: 8px solid  rgb(255, 255, 255);
+    background-image: url(../images/My-First-Repo-Mobile.png);
+    width:75%;
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+  }
+}
+/* Resume Zoom Hover */
+.First-Project :hover {
+  transform: scale(1.08);
+  transition: .5s;
+}
+.Gallery-Item-1 :hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+.Gallery-Item-2 :hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+.Gallery-Item-3 :hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+.Gallery-Item-4 :hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+.Gallery-Item-5 :hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
 
 /* For my Resume Pics */
+
 
 ::after,
 ::backdrop {
@@ -188,6 +228,7 @@ color: #ffffff;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
+
 }
 
 .Gallery-Item-2 {
@@ -222,8 +263,17 @@ color: #ffffff;
 footer {
   padding: 20px;
   margin-top: 0px;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color:rgb(150, 150, 150);
   background-image: url(../images/PROJECT\ -1.png);
   color:  rgb(251, 251, 251);
+  border: 8px double #EB04FF;
+  }
+
+  footer p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
   }
